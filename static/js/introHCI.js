@@ -26,8 +26,9 @@ function updateProject() {
   $(projectID).animate({
   	width: $('#width').val()
   });
+  
   var newDescription = $('#description').val();
-  $(projectID + ".project-description").text(newDescription);
+  $(projectID + " .project-description").text(newDescription);
 }
 
 /*
